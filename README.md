@@ -17,13 +17,13 @@ Instalarea Docker Desktop și verificarea funcționării acestuia.
 
 Descărcăm și instalăm Docker Desktop.
 
-![Instalare](1.png)
+![1](https://github.com/user-attachments/assets/c54a3b3b-2838-4f28-8536-97080b3d7e2c)
 
 ## Executare
 
 Creăm un repozitoriu containers03:
 
-![Repozitor](2.png)
+![2](https://github.com/user-attachments/assets/c6cc6aaa-a38e-4928-a703-752b23a7b301)
 
 Clonăm repozitoriul pe calculator:
 
