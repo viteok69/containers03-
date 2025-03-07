@@ -64,3 +64,41 @@ Ce a fost afișat în consolă?
 
 ![3](https://github.com/user-attachments/assets/7f9b3d20-c056-4168-9755-d0c09bd7e7b4)
 
+Executăm comanda pentru a porni containerul:
+
+```bash
+docker run --name containers03 containers03
+```
+
+Ce a fost afișat în consolă?
+
+![image](https://github.com/user-attachments/assets/5e58e241-4b44-497b-8b59-38b55d2458b5)
+
+Ștergem containerul și pornițim din nou, executând comenzile:
+
+```bash
+docker rm containers03
+docker run -ti --name containers03 containers03 bash
+```
+
+În fereastra deschisă, executăm comenzile:
+
+```bash
+cd /var/www/html/
+ls -l
+```
+
+Ce este afișat pe ecran?
+
+![image](https://github.com/user-attachments/assets/26deec58-d3be-4c97-9f40-c971e5eb7110)
+
+Închideți fereastra cu comanda exit.
+
+## Concluzie
+
+Lucrarea de față ne oferă o oportunitate de a ne familiariza cu procesul de lucru cu containerele Docker, o tehnologie care revoluționează modul în care aplicațiile sunt dezvoltate și gestionate. Containerele Docker oferă o metodă convenabilă și eficientă de a dezvolta și rula aplicații într-un mediu izolat de sistemul gazdă, având integrată toate dependențele necesare, librăriile și aplicațiile externe. Acest lucru permite crearea unui mediu uniform de lucru, indiferent de sistemul pe care rulează aplicația, garantând astfel consistența în rulare. În plus, în caz de erori, containerele pot fi reinstalate rapid împreună cu aplicația, oferind o soluție rapidă și eficientă pentru rezolvarea problemelor și menținerea unui flux de lucru stabil.
+
+## Bibliografie
+
+[^1]: [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+[^2]: [Git](https://docs.github.com/ru/get-started/git-basics/set-up-git)
