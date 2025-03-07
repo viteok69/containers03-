@@ -100,5 +100,5 @@ Lucrarea de față ne oferă o oportunitate de a ne familiariza cu procesul de l
 
 ## Bibliografie
 
-Docker Desktop: https://www.docker.com/products/docker-desktop/
+Docker Desktop: https://www.docker.com/products/docker-desktop/ \
 Git: https://docs.github.com/ru/get-started/git-basics/set-up-git
