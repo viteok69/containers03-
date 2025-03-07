@@ -59,3 +59,8 @@ Deschidem terminalul în directorul containers03 și executăm comanda:
 ```bash
 docker build -t containers03 .
 ```
+
+Ce a fost afișat în consolă?
+
+![3](https://github.com/user-attachments/assets/7f9b3d20-c056-4168-9755-d0c09bd7e7b4)
+
